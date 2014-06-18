@@ -1,0 +1,42 @@
+{
+  "name": "answer",
+  "version": "0.0.1",
+  "description": "Express-like server response helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "dependencies": {
+    "stacked": "^1.0.1",
+    "mime-types": "^1.0.0",
+    "vary": "^0.1.0",
+    "utils-merge": "^1.0.0",
+    "cookie-signature": "^1.0.3",
+    "cookie": "^0.1.2",
+    "escape-html": "^1.0.1",
+    "send": "^0.4.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "supertest": "^0.13.0",
+    "mocha": "^1.20.1",
+    "connect": "^2.19.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/answer.git"
+  },
+  "keywords": [
+    "express",
+    "response",
+    "reply",
+    "connect"
+  ],
+  "bugs": {
+    "url": "https://github.com/scottcorgan/answer/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/answer"
+}
