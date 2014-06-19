@@ -4,7 +4,7 @@
   "description": "Express-like server response helpers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test/ --reporter dot",
     "start": "node server.js"
   },
   "author": "Scott Corgan",
@@ -17,7 +17,8 @@
     "cookie-signature": "^1.0.3",
     "cookie": "^0.1.2",
     "escape-html": "^1.0.1",
-    "send": "^0.4.3"
+    "send": "^0.4.3",
+    "fast-url-parser": "^1.0.6-0"
   },
   "devDependencies": {
     "chai": "^1.9.1",

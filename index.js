@@ -14,7 +14,6 @@ var contentDisposition = require('./lib/utils').contentDisposition;
 
 module.exports = function() {
   return function(req, res, next) {
-    
     res.req = req;
     
     res.status = function (code) {
